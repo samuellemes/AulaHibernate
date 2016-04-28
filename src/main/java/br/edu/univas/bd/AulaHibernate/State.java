@@ -22,4 +22,42 @@ public class State implements Serializable {
 	private float area;
 	
 	//gerar os sets e gets
+	
+	public int getIbge() {
+		return ibge;
+	}
+
+	public void setIbge(int ibge) {
+		this.ibge = ibge;
+	}
+
+	public String getSigla() {
+		return sigla;
+	}
+
+	public void setSigla(String sigla) {
+		this.sigla = sigla;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public float getArea() {
+		return area;
+	}
+
+	public void setArea(float area) {
+		this.area = area;
+	}
+
+	@Override
+	public String toString() {
+		return "State [ibge=" + ibge + ", sigla=" + sigla + ", nome=" + nome + ", area=" + area + "]";
+	}
+	
 }
