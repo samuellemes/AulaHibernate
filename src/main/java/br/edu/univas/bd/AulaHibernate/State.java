@@ -59,5 +59,11 @@ public class State implements Serializable {
 	public String toString() {
 		return "State [ibge=" + ibge + ", sigla=" + sigla + ", nome=" + nome + ", area=" + area + "]";
 	}
+
+	public State() {
+		super();
+	}
+	
+	
 	
 }
